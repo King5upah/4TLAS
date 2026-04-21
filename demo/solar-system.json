@@ -1,0 +1,231 @@
+{
+  "id": "sol",
+  "name": "Sol",
+  "star": {
+    "name": "Sol",
+    "position": { "x": 0, "y": 0 },
+    "radius": 696000
+  },
+  "bodies": [
+    {
+      "id": "mercury",
+      "name": "Mercury",
+      "type": "planet",
+      "position": { "x": 57909050, "y": 0 },
+      "orbitRadius": 57909050,
+      "radius": 2439,
+      "color": "#b5b5b5",
+      "children": []
+    },
+    {
+      "id": "venus",
+      "name": "Venus",
+      "type": "planet",
+      "position": { "x": 0, "y": 108208930 },
+      "orbitRadius": 108208930,
+      "radius": 6051,
+      "color": "#e8cda0",
+      "children": []
+    },
+    {
+      "id": "earth",
+      "name": "Earth",
+      "type": "planet",
+      "position": { "x": -149598023, "y": 0 },
+      "orbitRadius": 149598023,
+      "radius": 6371,
+      "color": "#4488ff",
+      "children": [
+        {
+          "id": "moon",
+          "name": "Moon",
+          "type": "moon",
+          "position": { "x": 384400, "y": 0 },
+          "orbitRadius": 384400,
+          "radius": 1737,
+          "color": "#aaaaaa"
+        }
+      ],
+      "features": [
+        {
+          "id": "iss",
+          "name": "ISS",
+          "type": "station",
+          "position": { "x": 6871, "y": 0 }
+        },
+        {
+          "id": "earth_l4",
+          "name": "L4",
+          "type": "lagrange",
+          "position": { "x": 149598023, "y": 0 },
+          "lagrangePoint": "L4"
+        }
+      ]
+    },
+    {
+      "id": "mars",
+      "name": "Mars",
+      "type": "planet",
+      "position": { "x": 0, "y": -227936640 },
+      "orbitRadius": 227936640,
+      "radius": 3390,
+      "color": "#c1440e",
+      "children": [
+        {
+          "id": "phobos",
+          "name": "Phobos",
+          "type": "moon",
+          "position": { "x": 9376, "y": 0 },
+          "orbitRadius": 9376,
+          "radius": 11,
+          "color": "#888888"
+        },
+        {
+          "id": "deimos",
+          "name": "Deimos",
+          "type": "moon",
+          "position": { "x": -23463, "y": 0 },
+          "orbitRadius": 23463,
+          "radius": 6,
+          "color": "#888888"
+        }
+      ]
+    },
+    {
+      "id": "jupiter",
+      "name": "Jupiter",
+      "type": "planet",
+      "position": { "x": 778570000, "y": 0 },
+      "orbitRadius": 778570000,
+      "radius": 71492,
+      "color": "#c88b3a",
+      "children": [
+        {
+          "id": "io",
+          "name": "Io",
+          "type": "moon",
+          "position": { "x": 421800, "y": 0 },
+          "orbitRadius": 421800,
+          "radius": 1822,
+          "color": "#e8d44d"
+        },
+        {
+          "id": "europa",
+          "name": "Europa",
+          "type": "moon",
+          "position": { "x": 0, "y": 671100 },
+          "orbitRadius": 671100,
+          "radius": 1561,
+          "color": "#c8b89a"
+        },
+        {
+          "id": "ganymede",
+          "name": "Ganymede",
+          "type": "moon",
+          "position": { "x": -1070400, "y": 0 },
+          "orbitRadius": 1070400,
+          "radius": 2634,
+          "color": "#aaaaaa"
+        },
+        {
+          "id": "callisto",
+          "name": "Callisto",
+          "type": "moon",
+          "position": { "x": 0, "y": -1882700 },
+          "orbitRadius": 1882700,
+          "radius": 2410,
+          "color": "#888880"
+        }
+      ]
+    },
+    {
+      "id": "saturn",
+      "name": "Saturn",
+      "type": "planet",
+      "position": { "x": 0, "y": 1433530000 },
+      "orbitRadius": 1433530000,
+      "radius": 60268,
+      "color": "#e4d191",
+      "children": [
+        {
+          "id": "titan",
+          "name": "Titan",
+          "type": "moon",
+          "position": { "x": 1221870, "y": 0 },
+          "orbitRadius": 1221870,
+          "radius": 2575,
+          "color": "#d4a050"
+        },
+        {
+          "id": "enceladus",
+          "name": "Enceladus",
+          "type": "moon",
+          "position": { "x": -238020, "y": 0 },
+          "orbitRadius": 238020,
+          "radius": 252,
+          "color": "#eeeeff"
+        }
+      ]
+    },
+    {
+      "id": "uranus",
+      "name": "Uranus",
+      "type": "planet",
+      "position": { "x": -2872460000, "y": 0 },
+      "orbitRadius": 2872460000,
+      "radius": 25559,
+      "color": "#7de8e8",
+      "children": [
+        {
+          "id": "titania",
+          "name": "Titania",
+          "type": "moon",
+          "position": { "x": 435910, "y": 0 },
+          "orbitRadius": 435910,
+          "radius": 789,
+          "color": "#aacccc"
+        }
+      ]
+    },
+    {
+      "id": "ceres",
+      "name": "Ceres",
+      "type": "dwarf-planet",
+      "position": { "x": 413700000, "y": 0 },
+      "orbitRadius": 413700000,
+      "radius": 476,
+      "color": "#888888",
+      "children": []
+    },
+    {
+      "id": "neptune",
+      "name": "Neptune",
+      "type": "planet",
+      "position": { "x": 0, "y": -4495060000 },
+      "orbitRadius": 4495060000,
+      "radius": 24764,
+      "color": "#4b70dd",
+      "children": [
+        {
+          "id": "triton",
+          "name": "Triton",
+          "type": "moon",
+          "position": { "x": 354800, "y": 0 },
+          "orbitRadius": 354800,
+          "radius": 1353,
+          "color": "#aabbcc"
+        }
+      ]
+    },
+    {
+      "id": "pluto",
+      "name": "Pluto",
+      "type": "dwarf-planet",
+      "position": { "x": 5906380000, "y": 0 },
+      "orbitRadius": 5906380000,
+      "radius": 1188,
+      "color": "#d6b896",
+      "children": []
+    }
+  ]
+}

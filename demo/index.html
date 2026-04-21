@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>4TLAS — Interactive Planetary Visualization</title>
+  <meta name="description" content="Interactive 2D star map library for students and astronomy enthusiasts. Visualizing planetary bodies and systems with logarithmic scaling." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body { background: #040d14; color: #e0e0e0; font-family: 'Share Tech Mono', monospace; min-height: 100vh; }
+    #root { display: flex; flex-direction: column; min-height: 100vh; }
+    .site-header {
+      padding: 1rem 2rem;
+      border-bottom: 1px solid rgba(0,255,200,0.15);
+      display: flex; align-items: center; justify-content: space-between;
+      background: rgba(0,14,22,0.9);
+    }
+    .site-header h1 { font-size: 1rem; color: #00ffe0; letter-spacing: 0.2em; }
+    .site-header nav { display: flex; gap: 1.5rem; }
+    .site-header nav a { font-size: 0.7rem; color: rgba(0,255,200,0.6); text-decoration: none; letter-spacing: 0.1em; }
+    .site-header nav a:hover { color: #00ffe0; }
+    .map-wrap { flex: 1; min-height: 0; height: calc(100vh - 60px); }
+    .system-tabs {
+      position: absolute; top: 56px; left: 50%; transform: translateX(-50%);
+      display: flex; gap: 0.5rem; z-index: 30;
+    }
+    .system-tab {
+      background: rgba(0,14,22,0.88); border: 1px solid rgba(0,255,200,0.2);
+      color: rgba(0,255,200,0.5); font-family: 'Share Tech Mono', monospace;
+      font-size: 0.65rem; padding: 4px 12px; cursor: pointer; letter-spacing: 0.1em;
+    }
+    .system-tab.active { color: #00ffe0; border-color: rgba(0,255,200,0.5); }
+  </style>
+</head>
+<body>
+  <div id="root"></div>
+  <script type="module" src="/src/main.tsx"></script>
+</body>
+</html>
