@@ -1,12 +1,12 @@
-# SC Atlas
+# 4TLAS
 
-**Interactive 2D star map React component.** Built for Star Citizen, useful for any cartesian coordinate system — astronomy, planetary simulations, fictional worldbuilding, physics education.
+**Interactive 2D planetary visualization library.** Built for students and astronomy enthusiasts.
 
-[![npm](https://img.shields.io/npm/v/sc-atlas)](https://www.npmjs.com/package/sc-atlas)
-[![license](https://img.shields.io/npm/l/sc-atlas)](LICENSE)
-[![demo](https://img.shields.io/badge/demo-live-00ffe0)](https://cargo-runners.github.io/sc-atlas/)
+[![npm](https://img.shields.io/npm/v/4tlas)](https://www.npmjs.com/package/4tlas)
+[![license](https://img.shields.io/npm/l/4tlas)](LICENSE)
+[![demo](https://img.shields.io/badge/demo-live-00ffe0)](https://King5upah.github.io/4TLAS/)
 
-**[→ Live Demo — Solar System](https://cargo-runners.github.io/sc-atlas/)**
+**[→ Live Demo — 4TLAS](https://King5upah.github.io/4TLAS/)**
 
 ---
 
@@ -194,11 +194,11 @@ import {
 
 | Domain | How to use |
 |--------|-----------|
-| **Star Citizen** | Load Stanton or Pyro system JSON with real in-game coordinates |
 | **Astronomy education** | Use real NASA JPL distances (see `demo/solar-system.json`) |
 | **Fictional worldbuilding** | Invent coordinates for sci-fi settings, show orbital relationships |
 | **Exoplanet explorer** | Feed NASA Exoplanet Archive data after converting AU → km |
 | **Physics simulations** | Visualize orbital mechanics at any scale |
+| **Star Citizen** | Load Stanton or Pyro system JSON with real in-game coordinates |
 
 ---
 
@@ -206,8 +206,8 @@ import {
 
 ```bash
 # Clone the repo
-git clone https://github.com/cargo-runners/sc-atlas
-cd sc-atlas
+git clone https://github.com/King5upah/4TLAS
+cd 4TLAS
 
 # Install deps
 npm install

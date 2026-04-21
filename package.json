@@ -1,15 +1,15 @@
 {
-  "name": "sc-atlas",
+  "name": "4tlas",
   "version": "0.1.0",
-  "description": "Interactive 2D star map for Star Citizen and any cartesian coordinate system — planets, moons, orbits, route builder",
-  "author": "cargo-runners",
+  "description": "Interactive 2D planetary visualization for students and astronomy enthusiasts",
+  "author": "king5upah",
   "license": "MIT",
-  "keywords": ["star-citizen", "star-map", "astronomy", "2d-map", "svg", "react", "celestial", "solar-system"],
+  "keywords": ["astronomy", "2d-map", "svg", "react", "celestial", "solar-system", "planetary-visualization"],
   "repository": {
     "type": "git",
-    "url": "https://github.com/cargo-runners/sc-atlas"
+    "url": "https://github.com/King5upah/4TLAS"
   },
-  "homepage": "https://cargo-runners.github.io/sc-atlas",
+  "homepage": "https://King5upah.github.io/4TLAS",
   "main": "./dist/sc-atlas.umd.js",
   "module": "./dist/sc-atlas.es.js",
   "types": "./dist/index.d.ts",
